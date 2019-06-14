@@ -1,8 +1,3 @@
-# Warning!
-
-Currently, jupyterlab-dash extension doesn't work propery.
-You have to develop separatelly ;(.
-
 # dash-and-jupyterlab-with-gitpod
 
 Simple samples to develop [Dash - A web application framework for Python](https://plot.ly/products/dash/)
@@ -10,6 +5,11 @@ and [JupyterLab](https://github.com/jupyterlab/jupyterlab) applications on [gitp
 
 ![Screen shot](./sshot.png "Screen shot")
 ![Screen shot2](./sshot2.png "Screen shot2")
+
+# Notice
+
+Currently, jupyterlab-dash extension doesn't work propery.
+You have to develop on separate environments (gitpod for dash, jupyterlab for generic analytics) ;(
 
 # Usage
 
