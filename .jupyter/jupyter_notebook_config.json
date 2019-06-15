@@ -1,0 +1,7 @@
+{
+  "NotebookApp": {
+    "ip": "0.0.0.0",
+    "allow_origin": "*",
+    "open_browser": false
+  }
+}

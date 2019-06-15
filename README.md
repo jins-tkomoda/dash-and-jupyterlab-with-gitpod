@@ -28,7 +28,7 @@ Type in terminal: $ `python3 file_handling.py`
 ### Case: set password
 
 - Set password: $ `jupyter notebook password`
-- This command write credential into `~/.jupyter/jupyter_notebook_config.py`. If you want to skip this sequense in the next time, copy `~/.jupyter/jupyter_notebook_config.py` to `/workspace/dash-and-jupyterlab-with-gitpod/.jupyter/jupyter_notebook_config.py`.
+- This command write credential into `~/.jupyter/jupyter_notebook_config.json`. If you want to skip this sequense in the next time, copy `~/.jupyter/jupyter_notebook_config.json` to `/workspace/dash-and-jupyterlab-with-gitpod/.jupyter/`.
 - Then type start-up command in terminal: $ `jupyter lab`
 - Type the password in opened browser tab.
 
