@@ -28,9 +28,9 @@ Type in terminal: $ `python3 file_handling.py`
 ### Case: set password
 
 - Set password: $ `jupyter notebook password`
-- This command write credential into `~/.jupyter/jupyter_notebook_config.json`. If you want to skip this sequense in the next time, copy `~/.jupyter/jupyter_notebook_config.json` to `/workspace/dash-and-jupyterlab-with-gitpod/.jupyter/`.
 - Then type start-up command in terminal: $ `jupyter lab`
 - Type the password in opened browser tab.
+- To persist the password, copy json to workspace. See 'Persisting jupyterlab settings' section for detail.
 
 ### Case: set token
 
@@ -45,6 +45,11 @@ Or copy and paste one of these URLs:
 ```
 
 - Then access http://ws-12345678-1234-1234-1234-1234567890ab:8888/?token=abcdef1234567890123456789012345678901234567890 in browser tab(Host name and token will be varied).
+
+### Persisting jupyterlab settings
+
+As `/home/gitpod/.jupyter` will be initialized automatically in each time the contaner start-up, you have to copy /home/gitpod/.jupyter to workspace/.jupyter.
+Gitpod reads .gitpod.yml(tasks:command:) and executes command to copy settings from workspace-dir to /home in each time the contaner start-up.
 
 # License
 
