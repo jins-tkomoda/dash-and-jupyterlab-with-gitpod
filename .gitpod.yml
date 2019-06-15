@@ -5,3 +5,4 @@ ports:
   onOpen: open-browser
 tasks:
 - init: /workspace/dash-and-jupyterlab-with-gitpod/run.sh
+  command: cp -r /workspace/dash-and-jupyterlab-with-gitpod/.jupyter /home/gitpod/
